@@ -66,8 +66,8 @@ resource "azurerm_app_service_plan" "main" {
   reserved            = true
 
   sku {
-    tier = "PremiumV2"
-    size = "P1v2"
+    tier = "Basic"
+    size = "B1"
   }
 }
 
